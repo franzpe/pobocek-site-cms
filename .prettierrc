@@ -1,0 +1,12 @@
+{
+  "pluginSearchDirs": ["."],
+  "useTabs": true,
+  "singleQuote": true,
+  "printWidth": 115,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "bracketSameLine": false,
+  "bracketSpacing": true
+}

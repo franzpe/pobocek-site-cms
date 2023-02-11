@@ -1,6 +1,6 @@
 export default ({ env }) => ({
 	url: env('RENDER_EXTERNAL_URL'),
 	dirs: {
-		public: '/data/public'
+		public: '/opt/render/project/src/data/public'
 	}
 });

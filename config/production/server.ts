@@ -3,4 +3,7 @@ export default ({ env }) => ({
   dirs: {
     public: "/data/public",
   },
+  app: {
+    keys: env.array("APP_KEYS"),
+  },
 });

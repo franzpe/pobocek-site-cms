@@ -9,7 +9,7 @@ services:
     autoDeploy: false
     disk:
       name: strapi-data
-      mountPath: /data
+      mountPath: /opt/render/project/src/data
       sizeGB: 1
     envVars:
       - key: NODE_VERSION
@@ -17,7 +17,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_FILENAME
-        value: /data/strapi.db
+        value: /opt/render/project/src/data/strapi.db
       - key: JWT_SECRET
         generateValue: true
       - key: ADMIN_JWT_SECRET

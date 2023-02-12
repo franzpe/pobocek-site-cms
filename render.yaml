@@ -24,3 +24,9 @@ services:
         generateValue: true
       - key: APP_KEYS
         generateValue: true
+      - key: CLOUDINARY_NAME
+        sync: false
+      - key: CLOUDINARY_KEY
+        sync: false
+      - key: CLOUDINARY_SECRET
+        sync: false

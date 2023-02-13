@@ -15,7 +15,12 @@
 		"@strapi/provider-upload-cloudinary": "^4.6.1",
 		"@strapi/strapi": "4.6.0",
 		"better-sqlite3": "7.4.6",
-		"strapi-plugin-populate-deep": "^2.0.0"
+		"strapi-plugin-populate-deep": "^2.0.0",
+		"rss": "^1.2.2",
+		"marked": "^4.2.12"
+	},
+	"devDependencies": {
+		"@types/rss": "^0.0.30"
 	},
 	"author": {
 		"name": "A Strapi developer"

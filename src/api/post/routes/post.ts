@@ -9,6 +9,12 @@ const customRoutes = [
 		path: '/posts/slug/:slug',
 		handler: 'post.findOneBySlug',
 		config: { policies: [] }
+	},
+	{
+		method: 'GET',
+		path: '/posts/rss/feed',
+		handler: 'post.getRssFeed',
+		config: { policies: [] }
 	}
 ];
 

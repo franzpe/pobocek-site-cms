@@ -45,7 +45,7 @@ export default factories.createCoreController('api::post.post', ({ strapi }) => 
 				description: blog.description,
 				date: blog.updatedAt,
 				url: `https://pobocek.dev/blog/${blog.slug}`,
-				custom_elements: [{ content: marked(blog.content) }]
+				custom_elements: [{ ['content:encoded']: marked(blog.content) }]
 			});
 		}
 
